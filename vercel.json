@@ -8,6 +8,18 @@
     ],
     "routes": [
         {
+            "src":"/subscribers",
+            "dest":"/"
+        },
+        {
+            "src":"/subscribers/names",
+            "dest":"/"
+        },
+        {
+            "src":"/subscribers/:id",
+            "dest":"/"
+        },
+        {
             "src": "/(.*)",
             "dest": "/"
         }
